@@ -20,6 +20,7 @@ let songs=[
     {songname:"Levitating x Woh Ladki Jo", filepath:"songs/8.mp3", coverpath:"woh ladki.jpg"},
     {songname:"Mere Mehboob Qayamat Hogi", filepath:"songs/9.mp3", coverpath:"mere mehboob qayamat.jpg"},
     {songname:"Tere liye!", filepath:"songs/10.mp3", coverpath:"tere liye.jpg"},
+    {songname:"Tesher - Jalebi Baby", filepath:"songs/11.mp3", coverpath:"jalebi baby.jpg"},
 ];
 
 //audioelement.play();
@@ -82,7 +83,7 @@ Array.from(document.getElementsByClassName('songitemplay')).forEach((element) =>
 });
 
 document.getElementById('next').addEventListener('click',()=>{
-    if(songindex>=9){
+    if(songindex>=10){
         songindex=0
     }
     else{
